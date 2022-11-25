@@ -1,0 +1,16 @@
+.BookingContainer{
+    width: 30%;
+    margin: 30px;
+}
+.userbooks{
+    display: grid;
+    grid-auto-flow: row;
+    overflow-y: scroll;
+    overscroll-behavior-inline: contain;
+    max-height: 650px;
+    min-height: 100px;
+    position: fixed;
+}
+.userbooks::-webkit-scrollbar {
+    display: none;
+}

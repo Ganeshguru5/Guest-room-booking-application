@@ -1,0 +1,11 @@
+.info{
+    background-color: #AFE1AF;
+    color: green;
+    width: max-content;
+    border-color: green;
+    border-width: 10px;  
+    border-width: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;  
+}

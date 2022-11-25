@@ -1,0 +1,10 @@
+.admininput{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 300px;
+    font-size: 13px;
+}
+.adminhead{
+    font-size: 20px;
+}

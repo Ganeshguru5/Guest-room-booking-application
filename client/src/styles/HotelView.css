@@ -1,0 +1,44 @@
+.Viewimg{
+    width: 450px;
+
+}
+.requestBtn{
+    position: relative;
+    bottom: 40px;
+}
+
+.viewNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.Book{
+    color: white;
+    background-color: #3c94ff;
+    border: none;
+    width: 50%;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-top: 30px;
+}
+.requestBtn{
+    display: flex;
+    justify-content: center;
+}
+.Details{
+    background-color: #fdfdfd;
+    border-radius: 20px;
+    padding-top: 10px;
+    position: absolute;
+    top:35%;
+    width: 450px;
+    
+}
+.hoteltitle{
+    font-size: 30px;
+}
+.hoteladdress{
+    color: #b2b2b2;
+}

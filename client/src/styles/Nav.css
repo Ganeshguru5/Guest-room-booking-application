@@ -1,0 +1,16 @@
+.navItem{
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    margin-top: 15px;
+    color: #969696;
+    text-decoration: none;
+
+}
+.navtitle{
+    margin-left: 10px;
+}
+.NavContainer{
+    margin: 40px;
+    width: 10%;
+}

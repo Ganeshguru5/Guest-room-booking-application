@@ -1,0 +1,19 @@
+.nearhotel{
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    width: 300px;
+    padding: 10px;
+    border-radius: 30px;
+    justify-content: space-between;
+}
+.nearhotelimg{
+    width: 100px;
+    border-radius: 20px;
+}
+.hotelnamenear{
+    font-weight: bold;
+}
+.hotellocationnear{
+    color: grey;
+}

@@ -1,0 +1,21 @@
+.singleHotel{
+    width: 240px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.roomimg{
+    border-radius: 10px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+.rate{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}

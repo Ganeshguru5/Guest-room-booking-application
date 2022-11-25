@@ -1,0 +1,40 @@
+.userprofile{
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.onemanBooking{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 300px;
+    justify-content:space-between;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+.detials{
+    display: flex;
+    flex-direction: column;
+}
+.roomname{
+    font-weight: bold;
+}
+.usernameadmin{
+    font-weight: bold;
+    color: #8a8e91;
+}
+.checkadmin{
+    color: #8a8e91;
+}
