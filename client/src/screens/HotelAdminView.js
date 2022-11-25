@@ -39,16 +39,20 @@ export default function HotelAdminView() {
                         <div>
                         <p style={{fontWeight:'bold'}}>Hotel Name</p>
                         <p>{data.name}</p>
+
+                        <Link to={`/OwnerHome/EditRoom/${id}`}>
+                        <button style={{backgroundColor:'lightblue',color:'black',padding:"7px",border:'none'}}>Click to edit details</button>
+                        </Link>
+                        <button onClick={deleteone} style={{backgroundColor:'red',color:'white',padding:"7px",border:'none'}}>Delete Room</button>
+                        
+
                         <img src={'http://localhost:8080/'+data.image} style={{width:'400px',height:'400px'}}/>
                         <p  style={{fontWeight:'bold'}}>Address</p>
                         <p>{data.address}</p>
                         <p  style={{fontWeight:'bold'}}>Rent</p>
                         <p>{data.rent}/Day</p>
 
-                        <Link to={`/OwnerHome/EditRoom/${id}`}>
-                        <button>Click to edit details</button>
-                        </Link>
-                        <button onClick={deleteone}>Delete Room</button>
+                        
                     </div>
                     )
                 }
