@@ -13,7 +13,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 To run this project on your system.
 * Clone the repository 
   ```sh
-  git clone 
+  git clone https://github.com/Ganeshguru5/Guest-room-booking-application.git
   ```
 * Install node modules in both server and client
   ```sh
