@@ -39,7 +39,7 @@ export default function HotelAdminView() {
                         <div>
                         <p style={{fontWeight:'bold'}}>Hotel Name</p>
                         <p>{data.name}</p>
-                        <img src={'http://localhost:8080/'+data.image} style={{width:'400px'}}/>
+                        <img src={'http://localhost:8080/'+data.image} style={{width:'400px',height:'400px'}}/>
                         <p  style={{fontWeight:'bold'}}>Address</p>
                         <p>{data.address}</p>
                         <p  style={{fontWeight:'bold'}}>Rent</p>
