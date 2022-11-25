@@ -30,3 +30,12 @@ To run this project on your system.
   ```sh
   npm start
   ```
+* Owner login URL
+* Username:naveenrenter@gmail.com Password : 123456 (Use this better interaction as owner or you can create yours)
+  ```sh
+  http://localhost:3000/OwnerLogin
+  ```
+* Customer login URL
+  ```sh
+  http://localhost:3000/
+  ```
