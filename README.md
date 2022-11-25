@@ -31,7 +31,7 @@ To run this project on your system.
   npm start
   ```
 * Owner login URL
-* Username:naveenrenter@gmail.com Password : 123456 (Use this better interaction as owner or you can create yours)
+* Username:naveenrenter@gmail.com Password : 123456 (Use this login for better interaction as owner or you can create yours)
   ```sh
   http://localhost:3000/OwnerLogin
   ```
